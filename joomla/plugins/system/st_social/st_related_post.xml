@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+	<name>System - ST Related Post</name>
+	<author>Anh Minh</author>
+	<creationDate>Nov 2013</creationDate>
+	<copyright>Copyright (C) 2013 by Anh Minh</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>minhkhmt1k3@gmail.com</authorEmail>
+	<authorUrl>www.beautiful-templates.com</authorUrl>
+	<version>1.0.0</version>
+	<edition>Pro</edition>
+	<description>ST Related Post - Show Related Post</description>
+	<files>
+		<filename plugin="st_social">st_related_post.php</filename>
+		<folder>assets</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_system_st_related_post.ini</language>
+		<language tag="en-GB">en-GB.plg_system_st_related_post.sys.ini</language>
+	</languages>
+</extension>

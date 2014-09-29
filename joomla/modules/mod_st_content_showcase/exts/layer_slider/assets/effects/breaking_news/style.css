@@ -1,0 +1,22 @@
+.layer-effect-breaking_news .column-inner .title,
+.layer-effect-breaking_news .column-inner .title a {
+	color: #fff;	
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 46px;
+}
+.layer-effect-breaking_news .column-inner .title {
+	opacity: 0.3;
+	-webkit-transform: translate(0, 100px);
+	-webkit-transition: all 0.6s;
+}
+.layer-effect-breaking_news .animate-in .column-inner .title {
+	opacity: 1;
+	-webkit-transform: translate(0, 0);
+	-webkit-transition: all 0.6s;
+} 
+.layer-effect-breaking_news .animate-out .column-inner .title {
+	opacity: 0.3;
+	-webkit-transform: translate(0, -100px);
+	-webkit-transition: all 0.6s;
+}

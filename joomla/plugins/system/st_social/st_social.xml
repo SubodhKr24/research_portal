@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+	<name>System - Social</name>
+	<author>Neo</author>
+	<creationDate>7/1/2012</creationDate>
+	<copyright>Copyright (C) 2011 - 2012 JoomAvatar.com</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>beautifultemplates@gmail.com</authorEmail>
+	<authorUrl>www.beautiful-templates.com</authorUrl>
+	<version>1.0.0</version>
+	<edition>Pro</edition>
+	<description>ST Social - add share social</description>
+	<files>
+		<filename plugin="st_social">st_social.php</filename>
+		<folder>assets</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="position" type="radio" default="1" label="Position" description="">
+				  <option value="0">Before Content</option>
+				  <option value="1">After Content</option>
+				</field>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>

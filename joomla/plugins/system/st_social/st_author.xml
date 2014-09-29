@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+	<name>System - Author</name>
+	<author>Anh Minh</author>
+	<creationDate>Nov 2013</creationDate>
+	<copyright>Copyright (C) 2013 by Anh Minh</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>minhkhmt1k3@gmail.com</authorEmail>
+	<authorUrl>www.beautiful-templates.com</authorUrl>
+	<version>1.0.0</version>
+	<edition>Pro</edition>
+	<description>ST Author - Show author</description>
+	<files>
+		<filename plugin="st_social">st_author.php</filename>
+		<filename plugin="st_social">st_author.xml</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_system_st_author.ini</language>
+		<language tag="en-GB">en-GB.plg_system_st_author.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="full_name"
+					type="text"
+					label="ST_AUTHOR_FULL_NAME"
+					default="Anh Minh"
+					description="ST_AUTHOR_FULL_NAME_DESC" />
+				<field 
+					name="images" 
+					type="media" 
+					label="ST_AUTHOR_IMAGE"
+					directory="ST_AUTHOR_IMAGE_DESC" />
+				<field
+					name="introduce"
+					type="textarea"
+					default=""
+					label="ST_AUTHOR_INTRODUCE"
+					description="ST_AUTHOR_INTRODUCE_DESC" />
+					
+				<field
+					name="facebook"
+					type="text"
+					label="ST_AUTHOR_FACEBOOK"
+					default="http://facebook.com"
+					description="ST_AUTHOR_FACEBOOK_DESC" />
+					
+				<field
+					name="twitter"
+					type="text"
+					label="ST_AUTHOR_TWITTER"
+					default="http://twitter.com"
+					description="ST_AUTHOR_TWITTER_DESC" />
+					
+				<field
+					name="dribble"
+					type="text"
+					label="ST_AUTHOR_DRIBBLE"
+					default="http://dribbble.com"
+					description="ST_AUTHOR_DRIBBLE_DESC" />
+					
+				<field
+					name="print"
+					type="text"
+					label="ST_AUTHOR_PRINT"
+					default="http://www.printmag.com"
+					description="ST_AUTHOR_PRINT_DESC" />
+					
+				
+			</fieldset>
+		</fields>
+	</config>
+</extension>
